@@ -20,16 +20,20 @@ body {
     display: flex;
     align-items: flex-start;
     margin: 0px;
-    min-height: 55px;
-    max-height: 100%;
-    min-width: 10px;
+    min-height: 207px;
+    max-height: none;
+    min-width: 320px;
     max-width: 100%;
 }
 
 
+/*Behöver fixas*/
 .header-img img {
-max-width: 100%;
-outline: 1px solid blue;
+    display: block;
+    min-width: 100px;
+    max-width: fit-content;
+    min-height: min-content;
+    max-height: max-content;
 }
 
 .nav-flex-container {
@@ -51,7 +55,4 @@ outline: 1px solid blue;
 .nav-flex-container p {
     padding-right: 50px;
     padding-left: 50px;
-    
 }
-
-
