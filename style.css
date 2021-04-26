@@ -6,53 +6,88 @@ body {
 .header-flex-container {
     display: flex;
     background: lightseagreen;
+    border: 4px solid orange;
     font-size: 50px;
     text-align: center;
     align-items: flex-start;
     flex-direction: row;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    max-height: 223px;
+    min-width: 335px;
+    /* max-height: 223px; */
 }
 
 .header-flex-container p {
     border: 8px solid red;
     display: flex;
-    align-items: flex-start;
     margin: 0px;
-    min-height: 207px;
-    max-height: none;
+    min-height: 100%;
+    max-height: 100%;
     min-width: 320px;
     max-width: 100%;
+    align-self: center;
 }
 
+/*Behöver fixas*/
+.header-img-amethyst img {
+    display: block;
+    min-width: 10px;
+    max-width: auto;
+    min-height: 10px;
+    max-height: 300px;
+}
 
 /*Behöver fixas*/
-.header-img img {
+.header-img-fluorite img {
     display: block;
-    min-width: 100px;
-    max-width: fit-content;
-    min-height: min-content;
-    max-height: max-content;
+    min-width: 10px;
+    max-width: auto;
+    min-height: 10px;
+    max-height: 300px;
 }
 
 .nav-flex-container {
     margin: 0px;
     background-color: blueviolet;
-    min-height: 45px;
+    min-height: 70px;
     max-height: 100%;
+    min-width: 335px;
     border: 6px solid yellow;
-}
-
-.nav-flex-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     margin: 0px;
     font-size: 40px;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
-.nav-flex-container p {
+
+
+.nav-flex-container a {
     padding-right: 50px;
     padding-left: 50px;
+    color: orange;
+    text-decoration: none;
+}
+
+.nav-flex-container a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+@media all and (max-width: 700px) {
+    .header-flex-container p {
+        min-height: auto;
+        max-height: none;
+        min-width: auto;
+        max-width: 100%;
+    }
+
+    .header-img-fluorite img {
+        display: none;
+    }
+
+    .header-img-amethyst img {
+        display: none;
+    }
 }
