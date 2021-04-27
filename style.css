@@ -33,19 +33,17 @@ body {
     display: flex;
 }
 
-/*Behöver fixas*/
 .header-img-amethyst img {
     display: block;
-    min-width: fit-content;
+    min-width: auto;
     max-width: auto;
     min-height: 10px;
     max-height: 300px;
 }
 
-/*Behöver fixas*/
 .header-img-fluorite img {
     display: block;
-    min-width: 10px;
+    min-width: auto;
     max-width: auto;
     min-height: 10px;
     max-height: 300px;
@@ -63,7 +61,7 @@ body {
     flex-direction: row;
     margin: 0px;
     font-size: 40px;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -76,7 +74,7 @@ body {
 }
 
 .nav-flex-container a:hover {
-    color: rgb(70, 143, 202);
+    color: darkorange;
     text-decoration: underline;
 }
 
