@@ -14,6 +14,7 @@ body {
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     min-width: 335px;
+    justify-content: space-around;
     /* max-height: 223px; */
 }
 
@@ -28,10 +29,14 @@ body {
     align-self: center;
 }
 
+.header-flex-container img {
+    display: flex;
+}
+
 /*Behöver fixas*/
 .header-img-amethyst img {
     display: block;
-    min-width: 10px;
+    min-width: fit-content;
     max-width: auto;
     min-height: 10px;
     max-height: 300px;
@@ -66,12 +71,12 @@ body {
 .nav-flex-container a {
     padding-right: 50px;
     padding-left: 50px;
-    color: orange;
+    color: rgb(7, 255, 7);
     text-decoration: none;
 }
 
 .nav-flex-container a:hover {
-    color: blue;
+    color: rgb(70, 143, 202);
     text-decoration: underline;
 }
 
