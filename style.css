@@ -78,6 +78,17 @@ body {
     text-decoration: underline;
 }
 
+.content-flex-container {
+    /* Felfungerande utseende, behöver fixas */
+    display: flex;
+    flex-wrap: wrap;
+    background-color: crimson;
+    border: 5px solid darkmagenta;
+    align-items: center;
+}
+
+
+/* RADERA INTE, ANNARS FUNGERAR INTE KODEN! */
 @media all and (max-width: 700px) {
     .header-flex-container p {
         min-height: auto;
