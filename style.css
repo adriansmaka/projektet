@@ -82,10 +82,16 @@ body {
     /* Felfungerande utseende, behöver fixas */
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     background-color: crimson;
     border: 5px solid darkmagenta;
     align-items: center;
 }
+
+.content-flex-container p {
+    align-self: center;
+}
+
 
 
 /* RADERA INTE, ANNARS FUNGERAR INTE KODEN! */
