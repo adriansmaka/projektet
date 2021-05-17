@@ -2,11 +2,10 @@ body {
     padding: 0px;
     margin: 0px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
     /* Om man tar bort det här nere så ser den röda lådan bra ut */
     min-height: 100vh;
     display: grid;
-    grid-template-rows: auto auto auto 1fr auto;
+    grid-template-rows: auto auto 1fr auto;
 }
 
 .header-flex-container {
@@ -91,7 +90,6 @@ body {
     flex-direction: column;
     background-color: crimson;
     border: 5px solid darkblue;
-    max-height: 100%;
     align-items: center;
 }
 
