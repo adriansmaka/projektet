@@ -1,6 +1,12 @@
 body {
     padding: 0px;
     margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    /* Om man tar bort det här nere så ser den röda lådan bra ut */
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto auto 1fr auto;
 }
 
 .header-flex-container {
@@ -84,7 +90,8 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     background-color: crimson;
-    border: 5px solid darkmagenta;
+    border: 5px solid darkblue;
+    max-height: 100%;
     align-items: center;
 }
 
@@ -92,9 +99,22 @@ body {
     align-self: center;
 }
 
+.footer-flex-container {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: flex-end;
+    background-color: greenyellow;
+    border: 5px solid brown;
+    max-height: 120px;
+}
+
+.footer-flex-container p {
+    margin-left: 10px;
+}
 
 
-/* RADERA INTE, ANNARS FUNGERAR INTE KODEN! */
+
+/* RADERA INTE, ANNARS FUNGERAR INTE WEBBSIDAN KORREKT! */
 @media all and (max-width: 700px) {
     .header-flex-container p {
         min-height: auto;
