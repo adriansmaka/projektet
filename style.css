@@ -86,6 +86,7 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     background-color: crimson;
     border: 5px solid darkblue;
