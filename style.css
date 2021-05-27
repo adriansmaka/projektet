@@ -99,9 +99,8 @@ body {
 }
 
 .content-flex-container details:nth-child(4){
-    margin-bottom: 28px;
+    margin-bottom: 26px;
 }
-
 
 .content-flex-container-list ul {
     padding-left: 250px;
@@ -118,18 +117,18 @@ body {
 }
 
 .content-flex-container-mineral p {
-    text-align: center;
+    /* text-align: center; */
 }
 
 .content-flex-container p {
-padding-left: 250px;
-padding-right: 250px;
+padding-left: 100px;
+padding-right: 100px;
 font-size: 20px;
 line-height: 25px;
 }
 
 .content-flex-container-bergart p {
-    text-align: center;
+    /* text-align: center; */
 }
 
 .footer-flex-container {
