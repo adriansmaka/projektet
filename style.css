@@ -92,12 +92,16 @@ body {
     border: 5px solid darkblue;
 }
 
-.content-flex-container details {
+.content-flex-container details{
     padding: 3px;
     border: 2px solid black;
-    margin: 4px;
     /* position: ; */
 }
+
+.content-flex-container details:nth-child(4){
+    margin-bottom: 28px;
+}
+
 
 .content-flex-container-list ul {
     padding-left: 250px;
@@ -258,5 +262,13 @@ line-height: 25px;
 
     .header-img-amethyst img {
         display: none;
+    }
+}
+
+
+/* Kan man göra så att den border runt details försvinner när man trycker på den? */
+@media all and (max-width: 200px) {
+    .content-flex-container details {
+        border: none;
     }
 }
