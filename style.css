@@ -9,8 +9,7 @@ body {
 
 .header-flex-container {
     display: flex;
-    background: lightseagreen;
-    border: 4px solid orange;
+    background-color: rgb(30, 39, 39);
     font-size: 50px;
     text-align: center;
     align-items: flex-start;
@@ -22,8 +21,9 @@ body {
 }
 
 .header-flex-container p {
+    background-color: dimgray;
     padding: 5px;
-    border: 6px solid red;
+    border: 6px solid white;
     display: flex;
     margin: 0px;
     max-height: 100%;
@@ -54,11 +54,10 @@ body {
 
 .nav-flex-container {
     margin: 0px;
-    background-color: blueviolet;
     min-height: 70px;
     max-height: 100%;
     min-width: 335px;
-    border: 6px solid yellow;
+    background-color: darkslategrey;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -88,8 +87,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: crimson;
-    border: 5px solid darkblue;
+    background-color: rgb(100, 100, 100);
 }
 
 .content-flex-container details{
@@ -114,6 +112,11 @@ body {
 
 .content-flex-container h1 {
     text-align: center;
+    background-color: rgb(50, 50, 50);
+    margin-left: 550px;
+    margin-right: 550px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .content-flex-container-mineral p {
@@ -121,10 +124,13 @@ body {
 }
 
 .content-flex-container p {
-padding-left: 100px;
-padding-right: 100px;
-font-size: 20px;
-line-height: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 25px;
+    background-color: rgb(110, 109, 109);
 }
 
 .content-flex-container-bergart p {
@@ -136,8 +142,8 @@ line-height: 25px;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    background-color: greenyellow;
-    border: 5px solid brown;
+    background-color: rgb(40, 40, 40);
+    color: #768390;
     min-height: 100px;
     font-size: 20px;
 }
@@ -146,7 +152,7 @@ line-height: 25px;
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 2px;
-    margin-bottom: 2px;
+    margin-bottom: 2px;;
     align-items: flex-end;
 }
 
@@ -159,7 +165,6 @@ line-height: 25px;
     max-width: 300px;
     align-content: flex-end;
     flex-wrap: wrap;
-    outline: 2px solid blue;
 }
 
 /* Behöver fixas */
@@ -171,7 +176,6 @@ line-height: 25px;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    outline: 2px solid darkgreen;
 }
 
 .quartz1 {
