@@ -92,13 +92,20 @@ body {
     border: 5px solid darkblue;
 }
 
-.content-flex-container-mineral-list ul {
+.content-flex-container details {
+    padding: 3px;
+    border: 2px solid black;
+    margin: 4px;
+    /* position: ; */
+}
+
+.content-flex-container-list ul {
     padding-left: 250px;
     font-size: 25px;
     text-align: left;
 }
 
-.content-flex-container-mineral-list li {
+.content-flex-container-list li {
     font-weight: bold;
 }
 
@@ -115,6 +122,10 @@ padding-left: 250px;
 padding-right: 250px;
 font-size: 20px;
 line-height: 25px;
+}
+
+.content-flex-container-bergart p {
+    text-align: center;
 }
 
 .footer-flex-container {
