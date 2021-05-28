@@ -18,12 +18,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     min-width: 335px;
     justify-content: space-around;
+    padding: 20px;
 }
 
 .header-flex-container p {
     background-color: dimgray;
+    border-radius: 6px;
     padding: 5px;
-    border: 6px solid white;
+    border: 6px solid rgba(255, 255, 255, 0.74);
     display: flex;
     margin: 0px;
     max-height: 100%;
@@ -32,24 +34,22 @@ body {
     align-self: center;
 }
 
-.header-flex-container img {
-    display: flex;
-}
-
 .header-img-amethyst img {
     display: block;
     min-width: auto;
     max-width: auto;
-    min-height: 10px;
     max-height: 300px;
+    margin-right: 200px;
+    border: 6px solid black;
 }
 
 .header-img-fluorite img {
     display: block;
     min-width: auto;
     max-width: auto;
-    min-height: 10px;
     max-height: 300px;
+    margin-left: 200px;
+    border: 6px solid black;
 }
 
 .nav-flex-container {
@@ -71,12 +71,12 @@ body {
 .nav-flex-container a {
     padding-right: 50px;
     padding-left: 50px;
-    color: rgb(7, 255, 7);
+    color: black;
     text-decoration: none;
 }
 
 .nav-flex-container a:hover {
-    color: darkorange;
+    color: rgb(146, 98, 179);
     text-decoration: underline;
 }
 
@@ -85,15 +85,15 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(100, 100, 100);
+    align-items: center;
 }
 
 .content-flex-container details{
-    padding: 3px;
+    padding: 6px;
     border: 2px solid black;
-    /* position: ; */
+    text-align: center;
 }
 
 .content-flex-container details:nth-child(4){
@@ -101,40 +101,33 @@ body {
 }
 
 .content-flex-container-list ul {
-    padding-left: 250px;
     font-size: 25px;
-    text-align: left;
 }
 
 .content-flex-container-list li {
     font-weight: bold;
+    text-align: center;
+    list-style-type:none
 }
 
 .content-flex-container h1 {
     text-align: center;
-    background-color: rgb(50, 50, 50);
-    margin-left: 550px;
-    margin-right: 550px;
+    background-color: rgb(70, 70, 70);
+    margin-left: 500px;
+    margin-right: 500px;
     padding: 10px;
-    border-radius: 10px;
-}
-
-.content-flex-container-mineral p {
-    /* text-align: center; */
+    border-radius: 12px;
 }
 
 .content-flex-container p {
     margin-left: 100px;
     margin-right: 100px;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 12px;
     font-size: 20px;
     line-height: 25px;
     background-color: rgb(110, 109, 109);
-}
-
-.content-flex-container-bergart p {
-    /* text-align: center; */
+    text-align: left;
 }
 
 .footer-flex-container {
@@ -144,18 +137,17 @@ body {
     justify-content: space-between;
     background-color: rgb(40, 40, 40);
     color: #768390;
-    min-height: 100px;
+    min-height: 70px;
     font-size: 20px;
 }
 
-.footer-flex-container p {
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 2px;
-    margin-bottom: 2px;;
-    align-items: flex-end;
+.footer-flex-container a:hover {
+    color: rgb(122, 51, 255);
 }
 
+.footer-flex-container a {
+    color:rgb(86, 111, 255);
+}
 
 /* Behöver fixas */
 
@@ -165,6 +157,8 @@ body {
     max-width: 300px;
     align-content: flex-end;
     flex-wrap: wrap;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 /* Behöver fixas */
@@ -176,6 +170,8 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .quartz1 {
