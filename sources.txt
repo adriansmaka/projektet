@@ -1,11 +1,21 @@
+favicon:
+https://www.iconfinder.com/icons/2305611/best_clean_diamond_jem_jevelry_premium_price_icon
+
 Några olika bilder som jag har användt:
 https://pixabay.com/sv/photos/juvel-crystal-ametist-stone-quartz-3328166/
 https://pixabay.com/sv/photos/kristall-sten-p%C3%A4rla-geologi-3189006/
 https://unsplash.com/photos/jLWLxX6i3R8
 https://unsplash.com/photos/4hAWbrPoe7s
+https://unsplash.com/photos/ymQlshzTVv0
+https://unsplash.com/photos/n-RFKi766WI
+https://unsplash.com/photos/L0IL8Ew8XZA
 https://pixabay.com/sv/photos/rock-crystal-klar-till-vit-gem-topp-1603480/ (ska vara 320x240!)
 
+Lista med bergarter:
+https://geologinsdag.nu/wp-content/uploads/2016/05/Vanliga-mineral.pdf
 
+Lista med mineral:
+https://www.nrm.se/faktaomnaturenochrymden/geologi/mineralochmeteoriter/mineral.1608.html
 
 Definition på mineral:
 https://www.sgu.se/om-geologi/mineral/vad-ar-mineral/
