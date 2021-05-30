@@ -38,8 +38,6 @@ body {
 
 .header-flex-container img {
     display: grid;
-    min-width: auto;
-    max-width: auto;
     max-height: 300px;
     border: 6px solid black;
     margin-left: 40px;
@@ -47,8 +45,6 @@ body {
 
 .header-flex-container img {
     display: block;
-    min-width: auto;
-    max-width: auto;
     max-height: 300px;
     border: 6px solid black;
     margin-right: 40px;
@@ -189,8 +185,6 @@ body {
 
 .hoverdisplay span {
     display:none;
-    -moz-border-radius:6px;
-    -webkit-border-radius:6px;
     border-radius:6px;
     color:black;
     background:white; 
