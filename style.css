@@ -73,11 +73,14 @@ body {
     padding-left: 50px;
     color: black;
     text-decoration: none;
+    padding-bottom: 4px;
+    border-radius: 8px;
 }
 
 .nav-flex-container a:hover {
     color: rgb(146, 98, 179);
-    text-decoration: underline;
+    background-color: rgb(7, 77, 77);
+    text-decoration: none;
 }
 
 .content-flex-container {
@@ -111,12 +114,17 @@ body {
 }
 
 .content-flex-container h1 {
-    text-align: center;
     background-color: rgb(70, 70, 70);
-    margin-left: 500px;
-    margin-right: 500px;
+    min-height:max-content;
+    max-height: min-content;
+    min-width: fit-content;
+    max-width: min-content;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
     border-radius: 12px;
+    display: flex;
+    justify-content: center;
 }
 
 .content-flex-container p {
@@ -149,8 +157,6 @@ body {
     color:rgb(86, 111, 255);
 }
 
-/* Behöver fixas */
-
 .info-left {
     display: flex;
     max-height: 100px;
@@ -160,8 +166,6 @@ body {
     margin-left: 10px;
     margin-bottom: 10px;
 }
-
-/* Behöver fixas */
 
 .info-right {
     display: flex;
@@ -209,7 +213,30 @@ body {
     padding:8px;
 }
 
-/* .quartz1 {
+/* ---------------------------------------------------------- */
+
+/* RADERA INTE, ANNARS FUNGERAR INTE WEBBSIDAN KORREKT! */
+@media all and (max-width: 700px) {
+    .header-flex-container p {
+        min-height: auto;
+        max-height: none;
+        min-width: auto;
+        max-width: 100%;
+    }
+
+    .header-img-fluorite img {
+        display: none;
+    }
+
+    .header-img-amethyst img {
+        display: none;
+    }
+}
+
+/* Placeholder */
+
+/* 
+.quartz1 {
     text-decoration:none;
     position:relative;
 }
@@ -242,32 +269,5 @@ body {
     margin-left:32px;
     overflow:hidden;
     padding:8px;
-} */
-
-/* ---------------------------------------------------------- */
-
-/* RADERA INTE, ANNARS FUNGERAR INTE WEBBSIDAN KORREKT! */
-@media all and (max-width: 700px) {
-    .header-flex-container p {
-        min-height: auto;
-        max-height: none;
-        min-width: auto;
-        max-width: 100%;
-    }
-
-    .header-img-fluorite img {
-        display: none;
-    }
-
-    .header-img-amethyst img {
-        display: none;
-    }
-}
-
-
-/* Kan man göra så att den border runt details försvinner när man trycker på den? */
-@media all and (max-width: 200px) {
-    .content-flex-container details {
-        border: none;
-    }
-}
+} 
+*/
