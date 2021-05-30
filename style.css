@@ -3,7 +3,6 @@ body {
     margin: 0px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     min-height: 100vh;
-    min-width: 100vh;
     display: grid;
     grid-template-rows: auto auto 1fr auto;
 }
