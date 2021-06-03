@@ -220,6 +220,27 @@ body {
     .header-flex-container img {
         display: none;
     }
+
+    .info-left {
+        display: flex;
+        justify-content: start;
+        text-align: start;
+        max-height: 100px;
+        max-width: 180px;
+        align-content: flex-end;
+        flex-wrap: wrap;
+        margin: 10px 0px 10px 10px;
+    }
+    
+    .info-right {
+        display: flex;
+        justify-content: start;
+        text-align: start;
+        max-height: 100px;
+        max-width: 130px;
+        flex-wrap: wrap;
+        margin: 10px 10px 10px;
+    }
 }
 
 /* Placeholder */
