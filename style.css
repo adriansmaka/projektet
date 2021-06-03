@@ -19,6 +19,7 @@ body {
     min-width: 335px;
     justify-content: space-around;
     padding: 20px;
+    overflow: hidden;
 }
 
 .header-flex-container p {
@@ -31,8 +32,8 @@ body {
     min-height:max-content;
     max-height: min-content;
     max-width: min-content;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 150px;
+    margin-left: 150px;
     align-self: center;
 }
 
