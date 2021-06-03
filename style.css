@@ -113,7 +113,7 @@ body {
 }
 
 .content-flex-container h1 {
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(80, 80, 80);
     min-height:max-content;
     max-height: min-content;
     min-width: fit-content;
@@ -129,11 +129,11 @@ body {
 .content-flex-container p {
     margin-left: 20px;
     margin-right: 20px;
-    padding: 10px;
+    padding: 24px;
     border-radius: 12px;
     font-size: 20px;
     line-height: 25px;
-    background-color: rgb(110, 109, 109);
+    background-color: rgb(120, 120, 120);
     text-align: left;
 }
 
