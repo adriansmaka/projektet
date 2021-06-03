@@ -220,7 +220,6 @@ body {
     .header-flex-container img {
         display: none;
     }
-
     .info-left {
         display: flex;
         justify-content: start;
