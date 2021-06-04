@@ -18,22 +18,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     min-width: 335px;
     justify-content: space-around;
-    padding: 20px;
+    padding: 20px 30px;
     overflow: hidden;
 }
 
 .header-flex-container p {
     background-color: dimgray;
-    border-radius: 6px;
     padding: 5px;
-    border: 6px solid rgba(255, 255, 255, 0.74);
+    border: 6px solid rgb(216, 216, 216);
+    margin: 0px 80px;
+    border-radius: 6px;
     display: flex;
-    margin: 0px;
-    min-height:max-content;
-    max-height: min-content;
-    max-width: min-content;
-    margin-right: 150px;
-    margin-left: 150px;
+    max-width: max-content;
     align-self: center;
 }
 
@@ -105,13 +101,13 @@ body {
 }
 
 .content-flex-container h1 {
-    background-color: rgb(77, 77, 77);
+    background-color: rgb(81,81,81);
     min-height:max-content;
     max-height: min-content;
     min-width: min-content;
     max-width: max-content;
     padding: 8px 16px;
-    margin-top: 34px;
+    margin-top: 32px;
     border-radius: 4px;
     font-size: 30px;
     display: flex;
