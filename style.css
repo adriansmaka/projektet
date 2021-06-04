@@ -2,14 +2,14 @@ body {
     padding: 0px;
     margin: 0px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    min-height: 100vh;
+    min-height: 120vh;
     display: grid;
     grid-template-rows: auto auto 1fr auto;
 }
 
 .header-flex-container {
     display: flex;
-    background-color: rgb(30, 39, 39);
+    background-color: rgb(30, 40, 40);
     font-size: 50px;
     text-align: center;
     align-items: flex-start;
@@ -54,9 +54,9 @@ body {
 .nav-flex-container {
     margin: 0px;
     min-height: 70px;
-    max-height: 100%;
+    max-height: 120%;
     min-width: 335px;
-    background-color: darkslategrey;
+    background-color: rgb(7, 77, 77);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -78,7 +78,7 @@ body {
 
 .nav-flex-container a:hover {
     color: rgb(146, 98, 179);
-    background-color: rgb(7, 77, 77);
+    background-color: rgb(7, 60, 60);
     text-decoration: none;
 }
 
@@ -92,14 +92,44 @@ body {
     align-items: center;
 }
 
-.content-flex-container details{
-    padding: 6px;
+.content-flex-container details {
+    padding: 4px 8px;
+    background-color: rgb(116, 116, 116);
     border: 2px solid black;
     text-align: center;
 }
 
-.content-flex-container details:nth-child(4){
-    margin-bottom: 26px;
+.content-flex-container details:nth-child(6) {
+    margin-bottom: 500px;
+}
+
+.content-flex-container h1 {
+    background-color: rgb(100, 100, 100);
+    min-height:max-content;
+    max-height: min-content;
+    min-width: fit-content;
+    max-width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 16px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+.content-flex-container p {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 18px 26px;
+    border-radius: 12px;
+    font-size: 20px;
+    line-height: 25px;
+    background-color: rgb(130, 130, 130);
+    text-align: left;
+}
+
+.content-flex-container-list p {
+    background-color: rgb(100, 100, 100);
 }
 
 .content-flex-container-list ul {
@@ -110,31 +140,6 @@ body {
     font-weight: bold;
     text-align: center;
     list-style-type:none
-}
-
-.content-flex-container h1 {
-    background-color: rgb(80, 80, 80);
-    min-height:max-content;
-    max-height: min-content;
-    min-width: fit-content;
-    max-width: min-content;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    border-radius: 12px;
-    display: flex;
-    justify-content: center;
-}
-
-.content-flex-container p {
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 24px;
-    border-radius: 12px;
-    font-size: 20px;
-    line-height: 25px;
-    background-color: rgb(120, 120, 120);
-    text-align: left;
 }
 
 .footer-flex-container {
@@ -158,7 +163,7 @@ body {
 
 .info-left {
     display: flex;
-    max-height: 100px;
+    max-height: 120px;
     max-width: 300px;
     align-content: flex-end;
     flex-wrap: wrap;
@@ -168,7 +173,7 @@ body {
 
 .info-right {
     display: flex;
-    max-height: 100px;
+    max-height: 120px;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: flex-end;
@@ -201,7 +206,7 @@ body {
     position:absolute;
     top:0;
     left:0;
-    z-index:1000;
+    z-index:1200;
     width:auto;
     max-width:320px;
     min-height:128px;
@@ -216,7 +221,7 @@ body {
 
 /* RADERA INTE, ANNARS FUNGERAR INTE WEBBSIDAN KORREKT! */
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1340px) {
     .header-flex-container img {
         display: none;
     }
@@ -224,8 +229,8 @@ body {
         display: flex;
         justify-content: start;
         text-align: start;
-        max-height: 100px;
-        max-width: 180px;
+        max-height: 120px;
+        max-width: 1100px;
         align-content: flex-end;
         flex-wrap: wrap;
         margin: 10px 0px 10px 10px;
@@ -235,7 +240,7 @@ body {
         display: flex;
         justify-content: start;
         text-align: start;
-        max-height: 100px;
+        max-height: 120px;
         max-width: 130px;
         flex-wrap: wrap;
         margin: 10px 10px 10px;
@@ -269,7 +274,7 @@ body {
     position:absolute;
     top:0;
     left:0;
-    z-index:1000;
+    z-index:1200;
     width:auto;
     max-width:320px;
     min-height:128px;
