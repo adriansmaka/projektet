@@ -107,19 +107,19 @@ body {
     min-width: min-content;
     max-width: max-content;
     padding: 8px 16px;
-    margin-top: 32px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     border-radius: 4px;
     font-size: 30px;
     display: flex;
     justify-content: center;
 }
 .content-flex-container h1:nth-child(1) {
-    margin-top: 44px;
+    margin-top: 30px;
 }
 
 .content-flex-container p {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 20px 20px;
     padding: 18px 26px;
     border-radius: 12px;
     font-size: 22px;
