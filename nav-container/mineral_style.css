@@ -37,9 +37,8 @@ body {
 .nav-flex-container {
     margin: 0px;
     min-height: 70px;
-    max-height: 100%;
     min-width: 335px;
-    background-color: darkslategrey;
+    background-color: rgb(44,76,76);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -59,8 +58,8 @@ body {
 }
 
 .nav-flex-container a:hover {
-    color: rgb(146, 98, 179);
-    background-color: rgb(7, 77, 77);
+    color: rgb(125,91,162);
+    background-color: rgb(5,71,71);
     text-decoration: none;
 }
 
@@ -73,7 +72,7 @@ body {
 }
 
 .content-flex-container-inside {
-    background-color: rgba(255, 255, 255, 0.507);
+    background-color: rgb(130, 130, 130);
     min-height:max-content;
     max-height: min-content;
     min-width: fit-content;
@@ -85,10 +84,16 @@ body {
 
 .content-flex-container-inside h1 {
     font-size: 30px;
+    border: solid rgba(0, 0, 0, 0.700) 4px;
+    border-radius: 10px;
+    /* padding: 12px 0px; */
+    /* text-align: center; */
+    min-width: min-content;
+    max-width: max-content;
 }
 
 .content-flex-container-inside p {
-    font-size: 35px;
+    font-size: 22px;
     font-weight: bold;
     line-height: 1px;
     margin-top: 80px;

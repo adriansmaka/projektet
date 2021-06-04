@@ -54,9 +54,8 @@ body {
 .nav-flex-container {
     margin: 0px;
     min-height: 70px;
-    max-height: 120%;
     min-width: 335px;
-    background-color: rgb(7, 77, 77);
+    background-color: rgb(44,76,76);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -77,8 +76,8 @@ body {
 }
 
 .nav-flex-container a:hover {
-    color: rgb(146, 98, 179);
-    background-color: rgb(7, 60, 60);
+    color: rgb(125,91,162);
+    background-color: rgb(5,71,71);
     text-decoration: none;
 }
 
@@ -93,26 +92,29 @@ body {
 }
 
 .content-flex-container details {
-    padding: 4px 8px;
+    padding: 6px 10px;
     background-color: rgb(116, 116, 116);
     border: 2px solid black;
     text-align: center;
+    margin: 10px;
 }
 
-.content-flex-container details:nth-child(6) {
-    margin-bottom: 500px;
+/* Hur är det här child 6? */
+.content-flex-container details:nth-child(6) { 
+    margin-bottom: 30px;
 }
 
 .content-flex-container h1 {
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(77, 77, 77);
     min-height:max-content;
     max-height: min-content;
-    min-width: fit-content;
-    max-width: min-content;
+    min-width: min-content;
+    max-width: max-content;
     margin-left: auto;
     margin-right: auto;
     padding: 8px 16px;
     border-radius: 4px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
 }
@@ -122,8 +124,7 @@ body {
     margin-right: 20px;
     padding: 18px 26px;
     border-radius: 12px;
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 22px;
     background-color: rgb(130, 130, 130);
     text-align: left;
 }
