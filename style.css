@@ -92,12 +92,12 @@ body {
     background-color: rgb(116, 116, 116);
     border: 2px solid black;
     text-align: center;
-    margin: 10px;
+    margin: 6px 10px 10px 10px;
 }
 
 /* Hur är det här child 6? */
 .content-flex-container details:nth-child(6) { 
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .content-flex-container h1 {
@@ -107,19 +107,16 @@ body {
     min-width: min-content;
     max-width: max-content;
     padding: 8px 16px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 6px;
     border-radius: 4px;
     font-size: 30px;
     display: flex;
     justify-content: center;
 }
-.content-flex-container h1:nth-child(1) {
-    margin-top: 30px;
-}
 
 .content-flex-container p {
-    margin: 20px 20px;
+    margin: 0px 20px;
     padding: 18px 26px;
     border-radius: 12px;
     font-size: 22px;
