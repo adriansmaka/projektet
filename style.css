@@ -59,7 +59,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin: 0px;
     font-size: 40px;
     justify-content: space-evenly;
     align-items: center;
@@ -67,17 +66,18 @@ body {
 
 
 .nav-flex-container a {
-    padding-right: 50px;
-    padding-left: 50px;
     color: black;
     text-decoration: none;
-    padding-bottom: 4px;
+    padding: 0px 10px;
+    border: 3px solid rgb(5, 50, 50);
+    margin: 12px 0px;
     border-radius: 8px;
 }
 
 .nav-flex-container a:hover {
     color: rgb(125,91,162);
     background-color: rgb(5,71,71);
+    border: 3px solid rgb(5,71,71);
     text-decoration: none;
 }
 
@@ -110,13 +110,15 @@ body {
     max-height: min-content;
     min-width: min-content;
     max-width: max-content;
-    margin-left: auto;
-    margin-right: auto;
     padding: 8px 16px;
+    margin-top: 34px;
     border-radius: 4px;
     font-size: 30px;
     display: flex;
     justify-content: center;
+}
+.content-flex-container h1:nth-child(1) {
+    margin-top: 44px;
 }
 
 .content-flex-container p {
@@ -225,6 +227,9 @@ body {
 @media only screen and (max-width: 1340px) {
     .header-flex-container img {
         display: none;
+    }
+    .nav-flex-container {
+        flex-direction: column;
     }
     .info-left {
         display: flex;

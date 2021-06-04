@@ -49,17 +49,17 @@ body {
 }
 
 .nav-flex-container a {
-    padding-right: 50px;
-    padding-left: 50px;
     color: black;
+    border: 3px solid rgb(5, 50, 50);
     text-decoration: none;
-    padding-bottom: 4px;
+    padding: 2px 6px;
     border-radius: 8px;
 }
 
 .nav-flex-container a:hover {
     color: rgb(125,91,162);
     background-color: rgb(5,71,71);
+    border: 2px solid rgb(5,71,71);
     text-decoration: none;
 }
 
@@ -86,8 +86,7 @@ body {
     font-size: 30px;
     border: solid rgba(0, 0, 0, 0.700) 4px;
     border-radius: 10px;
-    /* padding: 12px 0px; */
-    /* text-align: center; */
+    padding: 6px 10px;
     min-width: min-content;
     max-width: max-content;
 }
