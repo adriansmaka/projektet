@@ -37,14 +37,11 @@ body {
     display: grid;
     max-height: 300px;
     border: 6px solid black;
-    margin-left: 40px;
+    /* margin-left: 40px; */
 }
 
-.header-flex-container img {
-    display: block;
-    max-height: 300px;
-    border: 6px solid black;
-    margin-right: 40px;
+.header-flex-container a {
+    margin: 0px 40px 0px 40px;
 }
 
 .nav-flex-container {
